@@ -1,0 +1,68 @@
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 50%;
+    width: 100%;
+    padding: 85px 0px;
+    margin: 0 auto;
+    &__header {
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;        
+    }
+    &__input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width:600px;
+        padding-bottom: 20px;
+        margin: 0px auto;
+        &-name {
+            font-size: 14px;
+            border-radius: 5px;
+            height: 30px;
+            width: 45%;
+            display: block;
+            padding-left: 12px;
+            border: 1px solid rgba(128, 128, 128, 0.3);
+        }
+        &-mail {    
+            font-size: 14px;
+            border-radius: 5px;
+            height: 30px;
+            display: block;     
+            width: 45%;
+            padding-left: 12px;
+            border: 1px solid rgba(128, 128, 128, 0.3);
+        }           
+    }
+    &__textarea {
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: 'PT Sans', sans-serif;
+        padding: 6px 12px;
+        border-radius: 5px;
+        width: 100%;
+        max-width:600px;
+        height: 130px;
+        border: 1px solid rgba(128, 128, 128, 0.3);
+        margin: 0px auto;
+        margin-bottom: 30px;
+    }
+    &__btn {
+        font-size: 14px;
+        width: 120px;
+        margin: 0 auto;
+        height: 36px;
+        color: #fff;
+        border-width: 0px;
+        background-color: #007bff;
+        border-radius: 5px;
+    }
+}

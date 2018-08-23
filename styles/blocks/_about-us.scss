@@ -1,0 +1,57 @@
+.about-us {
+    padding: 85px 0px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    &__header {
+        color: #1f1f1f;
+        height: 53px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.8rem;
+        margin-bottom: 42px;
+        &::after {
+            content: '';
+            display: block;
+            position: relative;
+            margin-top: 20px;
+            width: 74px;
+            height: 2px;
+            background: #f8002f;
+        }
+    }
+    &__description {
+        &-hide {  
+            color: #212529 !important;
+            max-height: 130px;
+            margin: 10px auto 30px auto;
+            overflow: hidden;
+            position: relative;     
+            &:after {
+                position: absolute;
+                content: "";
+                left: 0px;
+                bottom: 0px;
+                height: 50%;
+                width: 100%;
+                background: linear-gradient(transparent, rgb(255, 255, 255) );
+            }
+        }
+        &-open {       
+            color: #212529 !important;
+            max-height: 100%;
+            margin: 10px auto 30px auto;
+            overflow: hidden;
+            position: relative; 
+    }
+    }
+    &__btn {
+        height: 24px;
+        width: 90px;
+        padding: 6px 12px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+    }
+}
